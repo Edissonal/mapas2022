@@ -1,0 +1,10 @@
+<div class="search-container">
+    <input
+     type="tetx"
+     class="form-control"
+     placeholder="Buscar lugar"
+     #txtQuery
+     (keyup)="onQueryCahnged(txtQuery.value)"
+     >
+     <app-results></app-results>
+</div>
